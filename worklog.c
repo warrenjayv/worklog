@@ -7,14 +7,14 @@
 
 /*! 
  * \fn decrypt ()
- * \brief reads arguments passed to the main thread.
+ * \brief reads arguments passed to the main thread. test only. 
  * \return null  
  */
 void *decrypt (int argc, char **argv) {
 
 	/* precondition: argc > 0 */ 
-	if (argc < 1 ) {
-       printf("%sdecrypt() arguments NULL\n", RED);
+	if (argc < 2 ) {
+       printf("%sdecrypt() arguments NULL\n", RED);	
 	   printf("%s", DEF); 
 	}
 	while(argc--) {

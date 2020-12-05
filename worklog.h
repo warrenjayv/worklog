@@ -7,3 +7,5 @@
 
 #define RED "\033[38;5;31m"
 #define DEF "\033[0;0;37m"
+
+void *decrypt (int argc, char **agv); 
